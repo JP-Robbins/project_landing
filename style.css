@@ -1,21 +1,81 @@
 
 
 body {display: flex;
-      flex-direction: column;}
+      flex-direction: column;} 
+ 
+
+#logo {display: flex;
+       justify-content:flex-start;
+       max-height:100px;
+       max-width: 100px;
+       border-radius: 48%;}
 
 .container_3 {display:flex;
-         background-color: #1f2937;
-         font-style: roboto;
-         font-size: 18px;
-         flex-direction: row;
-         }
+              background-color: #1f2937;
+              font-size: 18px;
+              flex-direction: row;
+              justify-content: space-between;
+              }
+
+a { color:#e5e7eb;
+    text-decoration: none;
+    }              
+  
+ .subbox_1 {display: flex;}        
+
+#winter      { 
+      display: flex;
+      max-height: 1116px;
+      max-width:  250px;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 20%;}
+
+h2 {display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937}
+
+
+button {display: flex;
+        margin: 15px;
+        border-radius: 12%;
+        background-color: #3882f6;
+        color: azure;
+        font-size: 20px;
+        font-weight: 600;
+        border-color: #22b5fc4f;
+        padding: 5px; }      
 
 .header-link {display: flex;
               flex: 1;
-              justify-content: flex-end;
-              gap: 1em;}    
+              justify-content: space-evenly;
+              gap: 1em;
+              margin-right:20px;}    
               
 .container_1 {display: flex;
              flex: 1;
              background-color: #1f2937;
-             color:azure}              
+             color:azure}           
+
+.leaders {display:flex;
+          flex-wrap: wrap;
+          margin-left: 20px;
+          font-size: 48px;
+          color: #f9faf8 extra-bold;}
+
+p {margin:20px;
+   font-size: 18px;
+   color:#f9faf8;}
+   
+.container_2 {display:flex;
+              flex-wrap:wrap;
+              justify-content: space-evenly;
+              }   
+
+li {list-style: none;}              
+
+.quote { background-color: #e5e7eb;
+         color: #0a0a0a;
+         font-size: 36px ;
+        }
